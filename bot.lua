@@ -8,45 +8,45 @@ HTTPS = require('ssl.https')
 local bot_api_key = "205772097:AAHyD4tXCxCkF8OYstlSkGj-l_1YjFysdW0"
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
-local start = [[HI
+local start = [[سلام کاربر گرامی
 `/bold text`
-return *bold* text
+خروجی دادن : *bold*
 
 `/italic text`
-return _italic_ text
+خروجی دادن _italic_
 
 `/link url text`
-markdown link
+کوتاه کردن لینک
 
 `/code text`
-return `code` text
+ `code`خروجی دادن 
 
 
-*-channel*
-*add bot to a channel then use this commands*
+*-کانال*
+*ربات رو تو کانال اد کنین و از دستورای زیر استفاده کنین :*
 
 `/boldch @channelusername text`
-send *bold* text to a channel
+ارسال متن با فرمت *bold*
 
 `/italicch @channelusername text`
-send _italic_ text to a channel
+ارسال متن با فرمت _italic_
 
 `/linkch @channelusername url text`
-send markdown link to a channel
+ارسال لینک کوتاه شده
 
 `/codech @channelusername text`
-send `code` text to a channel
+ارسال متن با فرمت `code`
 
 
-*-other*
+*-دیگر امکانات*
 
 *sticker to photo* 
-_just send a sticker_
+_فقط استیکر مورد نظر رو ارسال فرمایید_
 
 *photo to sticker*
-_just send a photo_
+_فقط عکس مورد نظر خود رو ارسال فرمایید_
 
-[Source](https://github.com/pAyDaAr/lua-api-bot) ;-)
+[CHannel](https://telegram.me/SpartaCH) ;-)
 ]] 
 
 -------
